@@ -1,0 +1,37 @@
+.cinzaRosa{
+    padding: 5px;
+    width: 80px;
+}
+.cinzaRosa:hover{
+    background-color: #FD377E;
+    color: #fff;
+    border: solid 2px #FD377E;
+}
+.botaoAtivo{
+    background-color: #FD377E;
+    color: #fff;
+    border: solid 2px #FD377E;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+.botoesBox{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 533px){
+    .titulo{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+    .tudo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

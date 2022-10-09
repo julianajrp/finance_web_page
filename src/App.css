@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  width: 100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.corpo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (max-width: 950px){
+  .corpo{
+    flex-direction: column;
+    align-items: center;
+  }
+  .divDireita{
+    max-height: 300px;
+    overflow-y: scroll;
+    
+  }
+}

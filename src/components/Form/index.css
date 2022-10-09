@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@500&display=swap');
+
+
+form{
+    font-family: 'Inter', sans-serif;
+    width: 363px;
+    height: 351px;
+    border: 1px solid #E9ECEF;  
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 15px 30px 15px;
+    text-align: left;
+
+}
+
+input{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 10px;
+    /* grey-0 */
+    background: #F8F9FA;
+/* grey-0 */
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+   
+    height: 53px;
+    border-radius: 8px;
+    padding: 0px, 16px, 0px, 16px;
+    gap: 10px;
+
+}
+.biginput{
+    width: 314px;
+}
+select{
+    /* grey-0 */
+    background: #F8F9FA;
+/* grey-0 */
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 0px, 16px, 0px, 16px;
+
+}
+.botaoRosa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+    gap: 10px;
+    width: 314px;
+    height: 48px;
+
+/* color-primary */
+    background: #FD377E;
+/* color-primary */
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+/* Button Text */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.botaoRosa:hover{
+    background: #cc2d67;
+    border: 2px solid #cc2d67;
+    color: #F8F9FA;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

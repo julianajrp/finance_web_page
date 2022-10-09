@@ -1,0 +1,94 @@
+.cardEntrada{
+    /* grey-1 */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 514px;
+    height: 96px;
+    left: 258px;
+    top: 494px;
+    
+    background: #F8F9FA;
+        /* grey-2 */
+    
+    border-left: 4px solid #03B898;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    text-align: left;
+    
+}
+.cardSaida{
+   /* grey-1 */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    width: 514px;
+    height: 96px;
+    left: 258px;
+    top: 494px;
+   
+    background: #F8F9FA;
+       /* grey-2 */
+    border-left: 4px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.lixo{
+    width: 15px;
+    height: 18px;
+    background-color: #E9ECEF;
+    padding: 7px;
+    border-radius: 2.46154px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.lixo:hover {
+    background-color: #fff;
+   
+}
+.valor{
+    /* Body */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 5px 0;
+    /* identical to box height, or 183% */
+
+
+    /* grey-4 */
+
+    color: #212529;
+}
+.preco{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.description{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212529;
+    margin: 0;
+}
+@media (max-width: 533px){
+    .cardSaida{
+        width: 390px;
+    }
+    .cardEntrada{
+        width: 390px;
+    }
+}
